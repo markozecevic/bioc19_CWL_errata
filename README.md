@@ -2,7 +2,7 @@
 
 1. In Figure 3. (CommandLineTool example - Samtools view) bam_output type should be 'File' and not 'File?'. The question mark would indicate that the output is not required so the task won't fail when the ouput is not created. 
 
-2. I've exposed the output_filename port to make the image more in line with the description above.
+2. I've exposed the output_filename port to make the image more in line with the CWL description.
 
 ![](wf.png)
 
